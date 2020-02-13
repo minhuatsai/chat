@@ -1,0 +1,54 @@
+@import "./css/global.scss";
+
+/*common*/
+.section-content{
+  margin-bottom:30px;
+}
+
+
+.question-conatiner{
+  .btn-question-container{
+    text-align: right;
+  }
+}
+.answer-conatiner{
+  >form{
+    border: 1px solid rgba(34,36,38,.15);
+    border-radius: .28571429rem;
+    padding:20px;
+    margin-bottom: 50px;
+    background-color: #dcecf7;
+  }
+  .question-description{
+    margin: 30px 0;
+    background-color: #fbfaf2;
+  }
+  .input-answer{
+    width:100%;
+  }
+  .btn-answer{
+    padding:0 !important;
+
+    .button{
+      min-width:94px;
+    }
+  }
+}
+.conversation-history-conatiner{
+  .history-section{
+    border: 1px solid rgba(34,36,38,.15);
+    border-radius: .28571429rem;
+    padding:20px;
+    margin-bottom: 50px;
+    background-color: #dcf7e2;
+  }  
+  .question-description{
+    margin: 30px 0;
+    background-color: #fbfaf2;
+  }
+  .answer-description{
+    padding:0 15px;
+  }
+}
+
+
